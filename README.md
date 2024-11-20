@@ -5,7 +5,7 @@
 Kazi Mahfuzur Rahaman Nazim <br>
 Course Roll: 08-003-18 <br>
 Batch: WD03 <br>
-<h3>🌐 Live Demo: </h3> <a href="https://nkazimahfuzur.github.io/Nazim-CV-Assignment-08-003-18/">View My CV Website</a>
+<h3>🌐 Live Demo: </h3> <a href="https://nkazimahfuzur.github.io/Nazim-CV-Assignment-08-003-18/" target="_blank">View My CV Website</a>
 
 <h2 style="text-align:center;">My Assignment Details</h2>
 <h3>🖥️ Features:</h3>
