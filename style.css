@@ -1,0 +1,304 @@
+
+/*Setting common property for body*/
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e8eff0;
+}
+
+/*setting the main body*/
+.container {
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 4px 12px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px #2323236c;
+}
+
+/*---------- Home Tab */
+.homediv{
+   background-color: #20CD8D;
+   border-radius: 3px;
+   padding-top: 2px;
+   padding-bottom: 10px;
+   margin-bottom: 5px ;
+   text-align: center;
+}
+
+.welcome{
+    text-align: center;
+    font-size: 50px;
+    color: #000000da;
+    padding: 5px 0;
+    margin: 0;
+    margin-bottom: 4px;
+}
+/*header for photo name and address*/
+
+header img {
+    border-radius: 50%;
+    width: 180px;
+    height: 170px;
+    border: 1.5px solid #182527;
+    box-shadow: 0 0 9px #282828a0;
+}
+
+header h1 {
+    margin: 8px 0 4px;
+    color: #ffffffeb;
+}
+
+header p {
+    font-size: 20px;
+    color: #0f292c;
+    line-height: 0.8;
+}
+header a{
+    text-decoration: none;
+    color: #0f292c;
+}
+header a:hover{
+    color: blue;
+    cursor: pointer;
+}
+
+
+/*Navigation bar*/
+nav {
+    background-color:#182527;
+    color: #fff;
+    padding: 10px 0;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+    background-color: #5bdf9fb8;
+}
+
+/*Common margin for each section*/
+section {
+    margin-bottom: 20px;
+}
+
+/*all property for each sections*/
+section h2 {
+    border-bottom: 2px solid #182527;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    color: #182527;
+}
+
+.aboutme{
+    text-align: justify;
+}
+.aboutme p{
+    line-height: 1.5;
+    font-size: 18px;
+}
+
+/*designing list*/
+.skills ul,
+.experience ul,
+.achievements ul,
+.projects ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.skills ul li,
+.experience ul li,
+.achievements ul li,
+.projects ul li {
+    background: #29ae7e85;
+    margin: 5px 0;
+    padding: 10px;
+    border-left: 4px solid #030410;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+/*Table for educational qualification section*/
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 10px 0;
+}
+
+table, th, td {
+    border: 1px solid #bfbfbf;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color:#29ae7e85;
+    text-align: center;
+}
+
+td:nth-child(3), td:nth-child(4){
+    text-align: center;
+}
+
+/*form designing*/
+.contact{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 0;
+    padding: 10px;
+}
+
+.contact-details, .contact-form {
+
+    background-color: #fafafa;
+    padding: 20px;
+    box-shadow: 0 4px 5px rgba(70, 70, 70, 0.333);
+    border-radius: 2px;
+    margin: 5px;
+}
+
+.contact-details{
+    width: 32%;
+    height: auto;
+}
+
+ /* Contact Form*/ 
+.contact-form{
+    width: 66%;
+    height: auto;
+}
+
+.contact-details h3, .contact-form h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #272727ef;
+}
+
+.contact-details p {
+    font-size: 18px;
+    margin: 8px 0;
+    color: #323232;
+}
+
+.contact-details p a{
+    text-decoration: none;
+    color: #0f292c;
+}
+.contact-details p a:hover{
+    color: blue;
+    cursor: pointer;
+}
+
+.contact-form form{
+    display: flex;
+    flex-direction:column;
+}
+
+.contact-form label {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.contact-form input, .contact-form textarea {
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.contact-form button {
+    background-color: #20CD8D;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+.contact-form button:hover {
+    background-color: #0000007e;
+}
+
+/* Social Media Icons */
+.fa {
+    padding: 8px 12px;
+    width: 26px;
+    height: 22px;
+    text-align: center;
+    font-size: 50px;
+    text-decoration: none;
+    display: flex;
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+
+.fa:hover {
+      opacity: 0.5;
+      cursor: pointer;
+  }
+  
+.fa-facebook {
+    background: #000000e0;
+    color: white;
+  }
+  
+.fa-linkedin {
+    background: #000000e0;
+    color: white;
+  }
+
+.fa-github{
+    background-color: #000000c7;
+    color: white;
+}
+
+/* Footer Area */
+.divfooter{
+    width:100%;
+    text-align: center;
+    background-color: #28342c;
+    position: sticky;
+    bottom: 0;
+    padding: 2px 0;
+    margin-top: 40px;
+}
+
+.divfooter p{
+    color: white;
+    font-size: 15px;
+}
+
+
+
+
+
